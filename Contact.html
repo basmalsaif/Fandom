@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Harry Potter Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="hogwarts_logo.png" alt="Hogwarts Bookstore Logo">
+        <h1>Contact The Wizarding Bookstore</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Send an Owl to Our Magical Bookstore</h2>
+        <p>Have questions about our magical collection? Fill out the form below and we’ll respond faster than a flying broomstick!</p>
+
+        <form action="submit_form.php" method="POST" class="contact-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Owl</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Harry Potter Bookstore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
